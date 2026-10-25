@@ -1,5 +1,5 @@
 <!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>LUPRAX</title>
+<title>LU M1 Clinical Psychology</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -240,7 +240,7 @@ table.data td.n { text-align: right; font-family: var(--f-num); font-variant-num
 @media (prefers-reduced-motion: no-preference) { .qcard { animation: rise .18s ease-out; } @keyframes rise { from { transform: translateY(4px); } to { transform: none; } } }
 
 </style>
-<div id="app"><p style="font-family:Tinos,serif;padding:24px 0">Loading LUPRAX…</p></div>
+<div id="app"><p style="font-family:Tinos,serif;padding:24px 0">Loading LU M1 Clinical Psychology…</p></div>
 <script>
 /* LUPRAX content part 1: courses, timetable, concept graphs */
 const COURSES = {
@@ -4970,7 +4970,7 @@ function render() {
   const due = dueCount();
   const streak = streakDays();
   const tabs = [["home", "Timetable"], ["practice", "Practice"], ["modes", "Modes"], ["progress", "Progress"], ["log", "Logbook"], ["more", "More"]];
-  const top = `<header class="top"><div class="wrap"><button class="brand" data-a="tab" data-v="home">LUPRAX<small>M1 Clinical · Université Libanaise, Fanar</small></button>
+  const top = `<header class="top"><div class="wrap"><button class="brand" data-a="tab" data-v="home">LU M1 CLINICAL PSYCHOLOGY<small>Course trainer · Université Libanaise, Fanar</small></button>
     <nav class="tabs">${tabs.map(([k, l]) => `<button class="${V.tab === k || (k === "home" && V.tab === "course") ? "on" : ""}" data-a="tab" data-v="${k}">${l}</button>`).join("")}</nav>
     <div class="meta"><span class="pill ${due ? "hl" : ""}">${due} due</span><span class="pill">${streak}-day streak</span><span class="pill ${AI ? "" : "off"}">${aiState === "checking" ? "Claude: checking" : AI ? "Claude: on" : "Claude: off"}</span>${syncState === "synced" ? '<span class="pill">synced</span>' : ""}</div></div></header>`;
   let body = "";
